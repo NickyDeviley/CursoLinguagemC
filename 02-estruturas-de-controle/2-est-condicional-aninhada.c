@@ -19,7 +19,7 @@ void main () {
 
     int x;
     printf("Digite um inteiro: ");
-    scanf(" %d\n", &x);
+    scanf(" %d", &x);
     
     if (x > 0) {
         if (x == 1) {

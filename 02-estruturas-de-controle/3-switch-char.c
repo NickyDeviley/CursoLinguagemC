@@ -44,7 +44,7 @@ void main () {
 
     int x;
     printf("Digite um inteiro: ");
-    scanf(" %d\n", &x);
+    scanf(" %d", &x);
     
     // utilizando switch para ver se o x é 1, 2 ou 3:
 
