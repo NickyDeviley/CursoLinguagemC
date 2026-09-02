@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 void main () {
     // A biblioteca string.h tras alguns métodos printos para utilizarmos em strings,
@@ -11,7 +12,7 @@ void main () {
     // strrchr() - encontra a última ocorrencia de um dado caractere
     // strstr() - verifica se uma dada substring pode ser encontrada dentro de outra string
 
-    char str[200] = "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit";
+    char str[200] = "abc";
     char str2[200] = "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit";
     char str3[200];
 
